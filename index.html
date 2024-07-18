@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" id="auxin-fonts-google-css"
+        href="//fonts.googleapis.com/css?family=Source+Sans+Pro%3A200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CLibre+Baskerville%3Aregular%2Citalic%2C700&amp;ver=1"
+        type="text/css" media="all">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/assets/css/styles.css">
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Logo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Photography</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Studio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+
+                <div class="nav__social">
+                    <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://github.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://dribbble.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-dribbble-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="video-section">
+        <video src="./videoplayback.mp4" autoplay loop muted playsinline></video>
+        <div class="video-overlay">
+            <h1 class="overlay-text">
+                <h2>Contemporary and Off-Beat Wedding Stories</h2>
+                <p>For the Modern Couple</p>
+            </h1>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="head-text">
+                <h2>Modern Indian Wedding Photography for the Discerning Couple</h2>
+            </div>
+            <div class="heading-divider"></div>
+            <p class="heading-para">We believe wedding photography should be unscripted, fun and timeless. On this page
+                is a small portfolio
+                from the hundreds of weddings we've been at over the last ten years. Our style is contemporary, fun and
+                modern with an inclination towards moments in-between moments and classic portraiture. </p>
+        </div>
+
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+
+            <div class="row">
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="./Products Photography/IMG-20240201-WA0015.JPG" data-fancybox="gallery"><img
+                            src="./Products Photography/IMG-20240201-WA0015.JPG" alt="Image 1"
+                            class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/35981/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/35981/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/265916/pexels-photo-265916.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/265916/pexels-photo-265916.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/2053852/pexels-photo-2053852.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/2053852/pexels-photo-2053852.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class=" img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/169196/pexels-photo-169196.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/169196/pexels-photo-169196.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-59.jpg"
+                        data-fancybox="gallery"><img
+                            src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-59.jpg"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-3-300x300.jpg"
+                        data-fancybox="gallery"><img
+                            src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-3-300x300.jpg"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-57.jpg"
+                        data-fancybox="gallery"><img
+                            src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-2021-57.jpg"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/3998177/pexels-photo-3998177.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/3998177/pexels-photo-3998177.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/3787395/pexels-photo-3787395.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/3787395/pexels-photo-3787395.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        data-fancybox="gallery"><img
+                            src="https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item " data-aos="fade-up">
+                    <a href="./Products Photography/IMG_4199.JPG" data-fancybox="gallery"><img
+                            src="./Products Photography/IMG_4199.JPG" alt="Image 1" class="img-fluid gap-img">
+                        <div class="overlay">
+                            <span class="zoom-button"><i class="fas fa-plus"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div>
+            <div class="head-text">Other Portrait Photography Services</div>
+            <div class="heading-divider"></div>
+            <p class="heading-para">We believe wedding photography should be unscripted, fun and timeless. On this page is a small portfolio
+                from the hundreds of weddings we've been at over the last ten years. Our style is contemporary, fun and
+                modern with an inclination towards moments in-between moments and classic portraiture. </p>
+        </div>
+
+        
+
+    </section> -->
+
+    <footer>
+        <p>&copy; 2024 Gallery. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            // Initialize AOS
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true
+            });
+
+            // Initialize Fancybox
+            $('[data-fancybox="gallery"]').fancybox({
+                buttons: [
+                    "zoom",
+                    "share",
+                    "slideShow",
+                    "fullScreen",
+                    "download",
+                    "thumbs",
+                    "close"
+                ]
+            });
+        });
+
+        $(document).ready(function () {
+            $('#hamburger-menu').click(function () {
+                $(this).toggleClass('change'); // Toggle class for animation
+                $('.menu-wrap').slideToggle(); // Toggle menu visibility
+            });
+        });
+    </script>
+</body>
+
+</html>
